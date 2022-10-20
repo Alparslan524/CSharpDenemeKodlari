@@ -15,7 +15,7 @@ namespace CSharpDeneme
             Product product2 = new Product();
             product2.productName = "Kavun";
             product2.productPrice = 3;
-            product2.productComment = "En sevdiğim meyve";
+            product2.productComment = "En sevdiğim meyvedir";
 
             Product[] products = new Product[] {product1,product2};
             
