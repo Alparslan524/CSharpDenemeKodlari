@@ -10,7 +10,7 @@ namespace CSharpDeneme
             Product product1= new Product();
             product1.productName = "Armut";
             product1.productPrice = 5;
-            product1.productComment = "Armutun iyisini ayılar yer";
+            product1.productComment = "Armutun iyisini ayılar yermiş";
 
             Product product2 = new Product();
             product2.productName = "Kavun";
