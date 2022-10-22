@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metodlar", "CSharpDeneme\Me
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{F2D8BF09-5238-444A-B46D-CB39E734DEBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetodDemo", "ClassMetodDemo\ClassMetodDemo.csproj", "{B0F053B4-3A90-48B2-86A2-55C40DBCA712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMetodDemo", "ClassMetodDemo\ClassMetodDemo.csproj", "{B0F053B4-3A90-48B2-86A2-55C40DBCA712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{00DC3875-B573-4DD7-A3DE-8B2AFBE1F859}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B0F053B4-3A90-48B2-86A2-55C40DBCA712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0F053B4-3A90-48B2-86A2-55C40DBCA712}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0F053B4-3A90-48B2-86A2-55C40DBCA712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DC3875-B573-4DD7-A3DE-8B2AFBE1F859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DC3875-B573-4DD7-A3DE-8B2AFBE1F859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DC3875-B573-4DD7-A3DE-8B2AFBE1F859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DC3875-B573-4DD7-A3DE-8B2AFBE1F859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
