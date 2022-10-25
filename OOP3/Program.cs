@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace OOP3
 {
@@ -20,10 +21,27 @@ namespace OOP3
             reqCrediManager.Calculate();
 
             Console.WriteLine("******************************");
+            Console.WriteLine(" ");
 
             BasvuruManager basvuruManager = new BasvuruManager();
             basvuruManager.BasvuruYap(houseCrediManager);
             basvuruManager.BasvuruYap(carCrediManager);
+            
+            Console.WriteLine("******************************");
+            Console.WriteLine(" ");
+
+            List<ICrediManager> credies = new List<ICrediManager>() { carCrediManager, reqCrediManager };
+            //Kaç tane istiyorsak o kadar göndericez. Mesela araba ve ev kredisi bilgisi istiyoruz. Listeye ikisini göndeririz
+            basvuruManager.CrediInfo(credies);
+
+            Console.WriteLine("******************************");
+            Console.WriteLine(" ");
+            ILog dataLog = new DatabaseLogManager();
+            ILog smsLog = new SmsLogManager();
+
+            basvuruManager.BasvuruYap(houseCrediManager,dataLog);
+            basvuruManager.BasvuruYap(carCrediManager,smsLog);
+
 
         }
     }

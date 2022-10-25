@@ -10,5 +10,6 @@ namespace OOP3
         {
             Console.WriteLine("Ev Kredisi Hesaplandı");
         }
+
     }
 }

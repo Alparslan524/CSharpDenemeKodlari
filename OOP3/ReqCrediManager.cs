@@ -9,5 +9,6 @@ namespace OOP3
         public void Calculate()
         {
             Console.WriteLine("İhtiyaç Kredisi Hesaplandı");
-        }    }
+        }
+    }
 }
